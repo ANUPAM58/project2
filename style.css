@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#nav h3{
+    font-size: 16px;
+    border: 1.6px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#nav i{
+    font-size: 16px;
+    border: 1.6px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#nav h1{
+    font-weight: bold;
+    font-size: 27px;
+    text-transform: uppercase;
+    transform: translate(1%,-100%);
+    
+    margin-top: 435px;
+    color: saddlebrown;
+    margin-right: -550%;
+}
+
+
+
+#main>h4{
+    
+    margin-top: 450px;
+    margin-left: 50px;
+}
+
+#main>h2{
+    margin-top: -310px;
+    margin-left: 230px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#btn2{
+    border: none;
+    color: white;
+    background-color: orangered;
+    margin-top: 2.9px;
+}
+
+#main>h1{
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    text-transform: none;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    
+}
+
+img{
+    height: 200px;
+    width: 238px;
+    object-fit: cover;
+    object-position: 41% center;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+}
+
+
+
+#img5{
+    height: 20px;
+    width: 1000px;
+    
+    object-fit: cover;
+    object-position: 50% center;
+    margin-top: 18.2%;
+    
+    
+}
+
+
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 1%;
+    left: 5%;
+    font-size: 23px;
+}
+
+
