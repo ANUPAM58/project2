@@ -49,6 +49,7 @@ html, body {
     font-size: 28px;
     text-transform: uppercase;
     color: saddlebrown;
+    margin-left: 77px;
     
 }
 
@@ -76,10 +77,10 @@ html, body {
 
 /* Main Title */
 #main > h1 {
-    margin-top: 8px;
+    margin-top: 20px;
     text-align: center;
     font-size: 40px;
-    margin-left: -1150px;
+    /* margin-left: -1150px; */
 }
 
 /* Image Styling */
